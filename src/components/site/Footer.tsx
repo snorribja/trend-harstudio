@@ -4,7 +4,7 @@ import logoImg from "@/assets/trend_header_logo_transparent.png";
 
 export function Footer() {
   return (
-    <footer className="mt-24 border-t border-border/60 bg-secondary/40">
+    <footer className="mt-3 border-t border-border/60 bg-secondary/40 md:mt-6">
       <div className="container-narrow grid gap-10 py-14 md:grid-cols-5">
         <div className="md:col-span-2">
           <Link to="/" className="inline-flex">
